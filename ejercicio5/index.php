@@ -12,4 +12,16 @@ Para imprimir el contenido de una variable también utilizamos el comando echo:
 
 echo $num;
  */
+
+
+	$num=rand(1,100);
+  	echo "Numero aleatorio entre 1-100 es: ";
+  	echo $num;
+  	echo "<br>";
+  	if ($num<=50){
+    	echo "El número es Menor o igual a 50";
+  	}else{
+    	echo "El número es Mayor a 50";  
+  	}
+  	
 ?>
